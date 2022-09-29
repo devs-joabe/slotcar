@@ -319,7 +319,7 @@ section .title::after{
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 25px;
+    padding: 20px 22px;
     cursor: pointer;    
     transition: all 0.3s ease;
 }
