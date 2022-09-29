@@ -100,7 +100,7 @@ html{
 
 .home{
     display: flex;
-    background: rgb(255,255,255);
+    background: #111;
     height: 100vh;
     color: #fff;
     min-height: 500px;
