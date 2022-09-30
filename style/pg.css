@@ -117,6 +117,7 @@ html{
 }
 
 .home .home-content .text-2{
+    font-family: Poppins-Bold;
     font-size: 75px;
     font-weight: 500;
     margin-left: -3px;
@@ -242,6 +243,7 @@ section .title::after{
 
 .about .title::after{
     content: "Quem sou eu";
+    font-size: 16px;
 }
 
 .about .about-content .left{
@@ -311,6 +313,8 @@ section .title::after{
 .teams .title::after{
     background: #111;
     content: "Que ofereçemos";
+    font-size: 16px;
+    color:rgb(10, 187, 231);
 }
 
 
@@ -319,7 +323,7 @@ section .title::after{
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 22px;
+    padding: 20px 25px;
     cursor: pointer;    
     transition: all 0.3s ease;
 }
@@ -354,6 +358,7 @@ section .title::after{
 /* SESSÃO ESPECIALIDADE */
 .skills .title::after{
     content: "Que faço";
+    font-size: 16px;
 }
 
 .skills .skills-content .column{
@@ -439,6 +444,7 @@ section .title::after{
 /* SESSÃO MINHA EQUIPE */
 .teams .title::after{
     content: "Especializada";
+    font-size: 16px;
 }
 
 .teams .carousel .card{
@@ -513,6 +519,7 @@ section .title::after{
 
 .contact .title::after{
     content: "Fale Conosco";
+    font-size: 16px;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -738,9 +745,9 @@ footer span a:hover{
 }
 @media (max-width: 500px){
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 45px;
     }
     .home .home-content .text-3{
-        font-size: 27px;
+        font-size: 22px;
     }
 }
