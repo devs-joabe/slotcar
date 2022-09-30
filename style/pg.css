@@ -558,6 +558,7 @@ section .title::after{
 }
 
 .contact .contact-content .row .info .sub-title{
+    font-size: 13px;
     color: #333;
 }
 
