@@ -441,7 +441,7 @@ section .title::after{
     width: 67%;
 }
 
-* SESSÃO MODAL */
+/* SESSÃO MODAL */
 .modal-button {
     padding: 0.6rem 1.2rem;
     background-color: #888;
@@ -459,8 +459,6 @@ section .title::after{
   }
 
   #open-modal:hover{
-    color: #070707;
-    border-color: #070707;
     background-color: #ffffff;
   }
   
@@ -516,7 +514,6 @@ section .title::after{
     opacity: 0;
     pointer-events: none;
   }
-  
   
   #modal.hide {
     top: 0;
