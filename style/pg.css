@@ -458,7 +458,8 @@ section .title::after{
     font-size: 0.9rem;
   }
 
-  #open-modal:hover{
+   #open-modal:hover{
+    border-color: #070707;
     background-color: #ffffff;
   }
   
