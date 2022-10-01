@@ -455,10 +455,10 @@ section .title::after{
   
   #open-modal {
     background: #222;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
-   #open-modal:hover{
+  #open-modal:hover{
     color: #070707;
     border-color: #070707;
     background-color: #ffffff;
@@ -515,6 +515,17 @@ section .title::after{
   #fade.hide {
     opacity: 0;
     pointer-events: none;
+  }
+
+  #close-modal{
+    color: #ccc;
+    margin-bottom: 1rem;
+    background-color: #333;
+  }
+
+  #close-modal:hover{
+    color: #111;
+    background-color: #fff;
   }
   
   #modal.hide {
