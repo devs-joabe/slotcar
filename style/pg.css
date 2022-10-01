@@ -441,7 +441,7 @@ section .title::after{
     width: 67%;
 }
 
-/* SESSÃO MODAL */
+* SESSÃO MODAL */
 .modal-button {
     padding: 0.6rem 1.2rem;
     background-color: #888;
@@ -455,7 +455,7 @@ section .title::after{
   
   #open-modal {
     background: #222;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   #open-modal:hover{
@@ -516,22 +516,11 @@ section .title::after{
     opacity: 0;
     pointer-events: none;
   }
-
-  #close-modal{
-    color: #ccc;
-    margin-bottom: 1rem;
-    background-color: #333;
-  }
-
-  #close-modal:hover{
-    color: #111;
-    background-color: #fff;
-  }
+  
   
   #modal.hide {
     top: 0;
   }
-
 /* SESSÃO MINHA EQUIPE */
 .teams .title::after{
     content: "Especializada";
