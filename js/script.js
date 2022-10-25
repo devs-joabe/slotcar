@@ -16,17 +16,17 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Desenvolvedor", "Designer", "Freelancer"],
+         strings:["Desenvolvedores", "Designers", "Freelancers"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
-     var typed = new Typed(".typing-2", {
-        strings:["Desenvolvedor", "Designer", "Freelancer"],
-        typeSpeed:100,
-        backSpeed:60,
-        loop:true
-    });
+    //  var typed = new Typed(".typing-2", {
+    //     strings:["Desenvolvedors", "Designers", "Freelancers"],
+    //     typeSpeed:100,
+    //     backSpeed:60,
+    //     loop:true
+    // });
 
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
@@ -67,3 +67,25 @@ const toggleModal = () => {
 [openModalButton, closeModalButton, fade].forEach((el) => {
     el.addEventListener("click", () => toggleModal())
 });
+
+const imgs = document.getElementById("img");
+const img = document.querySelectorAll("#img img");
+
+let idx = 0;
+
+function carrosel(){
+    idx++;
+
+    if(idx > img.length - 1){
+        idx = 0;
+    }
+
+    imgs.style.transform = `translateX($(-idx = 500)px)`;
+}
+
+setInterval(carrosel, 1800);    
+
+
+// SLIDER 
+
+$('.single-item').slick();
