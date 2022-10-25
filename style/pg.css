@@ -42,10 +42,11 @@ html{
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 30px 0;
+    padding: 8px 0;
     font-family: Poppins-ExtraLight;
     transition: all 0.3s ease;
     z-index: 999;
+    background-color: #111;
 }
 
 .navbar.sticky{
@@ -60,14 +61,18 @@ html{
 
 }
 
-.navbar .logo a{
+.navbar .logo img{
+  width: 220px;
+}
+
+/* .navbar .logo a{
     color: #fff;
     font-size: 35px;
     font-weight: 500;
     font-family: Poppins-SemiBold;
-}
+} */
 
-.navbar .logo a span{
+/* .navbar .logo a span{
     color: rgb(10, 187, 231);
     font-family: Poppins-SemiBold;
     transition: all 0.3s ease;
@@ -75,11 +80,12 @@ html{
 
 .navbar.sticky .logo a span{
     color: #fff;
-}
+} */
 
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+    
 }
 
 .navbar .menu li a{
@@ -88,17 +94,20 @@ html{
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    
 }
 
 .navbar .menu li a:hover{
     color: rgb(10, 187, 231);
+    
 }
 
 .navbar.sticky .menu li a:hover{
     color: rgb(10, 187, 231);
+    
 }
 
-.home{
+/* .home{
     display: flex;
     background-color: #111;
     background-size: cover;
@@ -106,6 +115,16 @@ html{
     color: #fff;
     min-height: 500px;
     font-family: Poppins-SemiBold;
+} */
+
+.home{
+  display: flex;
+  background: url(/img/carro.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .home .max-width{
@@ -124,7 +143,7 @@ html{
 }
 
 .home .home-content .text-3{
-    font-size: 40px;
+    font-size: 32px;
     margin: 5px 0;
 }
 
@@ -242,7 +261,7 @@ section .title::after{
 } */
 
 .about .title::after{
-    content: "Quem sou eu";
+    content: "Quem somos";
     font-size: 16px;
 }
 
@@ -290,11 +309,13 @@ section .title::after{
 }
 
 .about .about-content .left img{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     border-radius: 6px;
 }
+
+
 
 /* SESSÃO SERVIÇOS */
 
@@ -354,8 +375,12 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+.services .serv-content .card p{
+    font-size: 15px;
+}
 
-/* SESSÃO ESPECIALIDADE */
+
+/* SESSÃO ESPECIALIDADE 
 .skills .title::after{
     content: "Que faço";
     font-size: 16px;
@@ -440,8 +465,9 @@ section .title::after{
 .skills .skills-content .right .vue::before{
     width: 67%;
 }
+*/  
 
-/* SESSÃO MODAL */
+ SESSÃO MODAL 
 .modal-button {
     padding: 0.6rem 1.2rem;
     background-color: #888;
@@ -454,12 +480,13 @@ section .title::after{
   }
   
   #open-modal {
-    background: #222;
-    font-size: 0.9rem;
+    background: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: Poppins-Bold;
   }
 
   #open-modal:hover{
-    background-color: #ffffff;
+    background-color: #000000;
   }
   
   .modal-button:hover {
@@ -518,6 +545,8 @@ section .title::after{
   #modal.hide {
     top: 0;
   }
+
+
 /* SESSÃO MINHA EQUIPE */
 .teams .title::after{
     content: "Especializada";
@@ -543,7 +572,7 @@ section .title::after{
     border-radius: 50%;
     border: 5px solid  rgb(10, 187, 231);
     transition: all 0.3s ease;
-}       
+}    
 
 .teams .carousel .card:hover img{
     border-color: rgb(88, 88, 88);
@@ -726,6 +755,7 @@ footer span a:hover{
 
 
 /*  responsivo  */
+/*  responsivo  */
 @media (max-width: 1300px){
     .navbar .max-width{
         margin-left: 0;
@@ -829,3 +859,4 @@ footer span a:hover{
         font-size: 22px;
     }
 }
+
