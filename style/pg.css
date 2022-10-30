@@ -51,7 +51,7 @@ html{
 
 .navbar.sticky{
     background: rgb(53, 53, 53);
-    padding: 15px 0;
+    padding: 2px 0;
 } 
 
 .navbar .max-width{
@@ -62,7 +62,7 @@ html{
 }
 
 .navbar .logo img{
-  width: 220px;
+  width: 170px;
 }
 
 /* .navbar .logo a{
@@ -261,7 +261,7 @@ section .title::after{
 } */
 
 .about .title::after{
-    content: "Quem somos";
+    content: "Saber mais";
     font-size: 16px;
 }
 
